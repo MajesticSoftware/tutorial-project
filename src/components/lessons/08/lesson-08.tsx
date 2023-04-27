@@ -19,7 +19,6 @@ export const Lesson08 = () => {
                     className={`${styles.section} ${styles.circles}`}
                     id="circles"
                 >
-                    <Box color="darkLavender" className={styles.circle} />
                     <Box color="hotPink" className={styles.circle} />
                     <Box color="danaPink" className={styles.circle} />
                 </div>
@@ -52,6 +51,7 @@ export const Lesson08 = () => {
                     show={lessonSolved}
                     style={{ display: lessonSolved ? 'block' : 'none' }}
                 />
+                <Box color="darkLavender" className={styles.circle} />
             </div>
         </div>
     );
